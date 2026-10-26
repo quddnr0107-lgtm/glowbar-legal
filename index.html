@@ -38,12 +38,6 @@
   .insurance-consultation .ad-label { padding: 10px 16px; font-size: 12px; font-weight: 700; }
   .insurance-consultation .ad-image { display: block; }
   .insurance-consultation img { display: block; width: 100%; height: auto; }
-  .insurance-consultation .ad-content { padding: 16px; }
-  .insurance-consultation .ad-identity { font-size: 14px; font-weight: 700; }
-  .insurance-consultation .ad-phone { display: inline-flex; min-height: 44px; align-items: center; color: #176443; font-size: 14px; }
-  .insurance-consultation .ad-cta { display: flex; min-height: 44px; align-items: center; justify-content: center; border-radius: 12px; padding: 12px; background: #fee500; color: #191919; font-size: 14px; font-weight: 700; text-decoration: none; text-align: center; }
-  .insurance-consultation .ad-disclosure { margin-top: 12px; font-size: 12px; line-height: 1.7; }
-  .insurance-consultation .ad-disclosure p + p { margin-top: 8px; }
   .insurance-consultation a:focus-visible { outline: 3px solid #176443; outline-offset: 3px; }
 </style>
 </head>
@@ -53,22 +47,15 @@
   <h1>Glowbar</h1>
   <p>LED banner for Android.</p>
   <p><a href="privacy.html">Privacy policy</a></p>
-  <aside class="insurance-consultation" lang="ko" aria-label="보험 상담 광고">
+  <aside data-insurance-consultation data-insurance-scope="glowbar" class="insurance-consultation" lang="ko" aria-label="보험 상담 광고">
     <p class="ad-label">보험 상담 광고</p>
     <a class="ad-image" href="https://open.kakao.com/o/szrZKQPi" target="_blank" rel="noopener noreferrer sponsored" aria-label="박소정 FC의 카카오톡 오픈채팅 상담 열기 (새 창)">
       <img src="insurance-consultation-v2.webp" width="1536" height="1024" loading="lazy" decoding="async" alt="쉽고 부담 없이 1:1 오픈톡으로 대화하세요. 삼성생명 인천지점 박소정 FC 보험 상담 안내">
     </a>
-    <div class="ad-content">
-      <p class="ad-identity">삼성생명 인천지점 보험설계사 박소정 FC</p>
-      <a class="ad-phone" href="tel:01076699489">010-7669-9489</a>
-      <a class="ad-cta" href="https://open.kakao.com/o/szrZKQPi" target="_blank" rel="noopener noreferrer sponsored" aria-label="지금 오픈톡 상담 신청하기 (새 창)">지금 오픈톡 상담 신청하기</a>
-      <div class="ad-disclosure">
-        <p>사이트 내 별도 상담정보 입력 없이 카카오톡 오픈채팅으로 연결됩니다. 상담 과정에서 필요한 정보는 별도 안내에 따라 제공해 주세요.</p>
-        <p>보험계약 체결 전 상품설명서 및 약관을 확인해 주세요. 기존 보험계약을 해지하고 새로운 보험계약을 체결하면 가입 거절, 보험료 인상 또는 보장내용 변경 등 불이익이 발생할 수 있습니다.</p>
-      </div>
-    </div>
   </aside>
 </main>
+<script src="insurance-popup-v1.js?v=20261026" defer></script>
 </body>
 </html>
+
 
